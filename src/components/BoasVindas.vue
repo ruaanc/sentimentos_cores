@@ -30,7 +30,7 @@ export default {
   height: 300px;
 }
 body {
-  margin: 0%;
+  background-color: white;
 }
 
 .borda {

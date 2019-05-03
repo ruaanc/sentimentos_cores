@@ -8,6 +8,7 @@ import sexo from './components/sexo.vue'
 import idade from './components/idade.vue'
 import cor_preferida from './components/Cor_preferida.vue'
 import aviso from './components/aviso.vue'
+import vermelho from './components/vermelho.vue'
 
 
 Vue.use(Router)
@@ -37,5 +38,8 @@ export default new Router({
     },{
         path: '/aviso',
         component: aviso
+    },{
+        path: '/vermelho',
+        component: vermelho
     }]
 })
