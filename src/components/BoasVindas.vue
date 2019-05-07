@@ -29,5 +29,6 @@ export default {
 }
 h5{
     font-family: "Comic Sans MS";
+    font-size: medium;
 }
 </style>
