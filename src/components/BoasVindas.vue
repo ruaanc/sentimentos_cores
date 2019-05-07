@@ -2,7 +2,7 @@
   <div id="caixa">
     <div id="alocar">
       <h5>Olá, O meu nome é Enzo!</h5>
-      <router-link to="/fala1"><b-button>Seguinte</b-button></router-link>
+      <router-link to="/fala1"><button>Seguinte</button></router-link>
     </div>
   </div>
 </template>
