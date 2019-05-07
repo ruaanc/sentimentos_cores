@@ -6,7 +6,7 @@
         <h5>
             <b-form-input v-model="text" placeholder="Digite"></b-form-input>
         </h5>
-      <div align="right"><router-link to="/idade"><button class="small">Seguinte</button></router-link></div>
+      <div align="right"><router-link to="/cor_preferida"><button class="small">Seguinte</button></router-link></div>
     </div>
   </div>
 </body>
