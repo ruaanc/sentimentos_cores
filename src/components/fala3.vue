@@ -3,7 +3,7 @@
   <div id="caixa3">
     <div id="alocar3">
       <h5>Agora eu quero conhecer mais sobre você.</h5>
-      <router-link to="/sexo"><b-button>Seguinte</b-button></router-link>
+      <div align="right"><router-link to="/sexo"><button class="small">Seguinte</button></router-link></div>
     </div>
   </div>
 </body>
@@ -14,49 +14,23 @@
 </script>
 
 <style scoped>
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.box {
-  width: 300px;
-  height: 300px;
-}
-
-.borda {
-  border: 10px solid black;
-  border-radius: 30px;
-  padding: 3%;
-}
-
-input {
-  border: solid 1px solid;
-  border-radius: 15px;
-  height: 20px;
-  display: block;
-}
-
-#input-small {
-  border: 3px solid;
-  border-radius: 30px;
-}
 
 #caixa3 {
   border: 100px solid transparent;
-  border-image: url(img/caixinha.png) 95 stretch;
-  margin-right: 65%;
+  border-image: url(img/balao1.png) 250 stretch;
+  margin-right: 70%;
   position: absolute;
 }
 
 #alocar3{
   position: relative;
-  top: -30px;
+  top: -15px;
+  left: -15px;
 }
 
 h5{
-    font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS";
+  font-size: medium;
+  padding: 10px;
 }
 </style>
