@@ -1,12 +1,10 @@
 <template>
-<body id="boas">
   <div id="caixa">
     <div id="alocar">
       <h5>Olá, O meu nome é Enzo!</h5>
       <router-link to="/fala1"><b-button>Seguinte</b-button></router-link>
     </div>
   </div>
-</body>
 </template>
 
 <script>
@@ -29,10 +27,6 @@ export default {
   width: 300px;
   height: 300px;
 }
-body {
-  background-color: white;
-}
-
 .borda {
   border: 10px solid black;
   border-radius: 30px;

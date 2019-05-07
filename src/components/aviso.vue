@@ -1,12 +1,10 @@
 <template>
-    <body>
         <div id="caixa">
             <div id="alocar">
                 <h5>Agora, iremos tentar expressar o que sentimos com as cores que iremos ver.</h5>
-                <router-link to="/vermelho"><b-button>Seguinte</b-button></router-link>
+                <a href="/vermelho.html"><b-button>Seguinte</b-button></a>
             </div>
         </div>  
-    </body>
 </template>
 <script>
 export default {

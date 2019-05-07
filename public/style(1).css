@@ -1,0 +1,17 @@
+#caixa {
+    border: 100px solid transparent;
+    border-image: url(imagem/caixinha.png) 95 stretch;
+    margin-right: 65%;
+    position: absolute;
+    }
+#alocar{
+      position: relative;
+      top: -30px;
+}
+body{
+        background-color: blue;
+}
+h5{
+        font-family: "Comic Sans MS";
+        color: white;
+}

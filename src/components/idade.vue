@@ -38,9 +38,6 @@
   width: 300px;
   height: 300px;
 }
-body {
-  margin: 0%;
-}
 
 .borda {
   border: 10px solid black;

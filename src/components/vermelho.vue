@@ -1,8 +1,5 @@
 <template>
-    <body>
-        <head>
-            <link rel="stylesheet" type="text/css" href="style1.css">
-        </head>
+    <body class="cor_vermelha">
         <div id="caixa">
             <div id="alocar">
                 <h5><font>Qual sentimento consegue sentir olhando esse cenário?</font> </h5>
@@ -28,6 +25,9 @@ position: absolute;
 #alocar{
   position: relative;
   top: -30px;
+}
+body{
+    background-color: red;
 }
 h5{
     font-family: "Comic Sans MS";
