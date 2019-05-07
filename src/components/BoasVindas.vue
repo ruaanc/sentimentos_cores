@@ -16,35 +16,6 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.box {
-  width: 300px;
-  height: 300px;
-}
-.borda {
-  border: 10px solid black;
-  border-radius: 30px;
-  padding: 3%;
-}
-
-input {
-  border: solid 1px solid;
-  border-radius: 15px;
-  height: 20px;
-  display: block;
-}
-
-#input-small {
-  border: 3px solid;
-  border-radius: 30px;
-}
-
 #caixa {
   border: 100px solid transparent;
   border-image: url(img/caixinha.png) 95 stretch;
