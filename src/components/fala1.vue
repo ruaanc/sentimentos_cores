@@ -25,4 +25,7 @@
   position: relative;
   top: -30px;
 }
+h5{
+  font-size: medium;
+}
 </style>
