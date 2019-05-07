@@ -10,7 +10,7 @@
            <div id="azul"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="white">Azul</font></b-form-radio></div>
           </b-form-group>
         </h5>
-      <div align="right"><router-link to="/cor_preferida"><button class="small">Seguinte</button></router-link></div>
+      <div align="right"><router-link to="/aviso"><button class="small">Seguinte</button></router-link></div>
     </div>
   </div>
 </body>
