@@ -1,17 +1,24 @@
 #caixa {
     border: 100px solid transparent;
-    border-image: url(imagem/caixinha.png) 95 stretch;
+    border-image: url(imagem/balao1.png) 250 stretch;
     margin-right: 65%;
     position: absolute;
     }
 #alocar{
-      position: relative;
-      top: -30px;
+        position: relative;
+        top: -30px;
+        left: -15px;
 }
 body{
         background-color: blue;
 }
 h5{
         font-family: "Comic Sans MS";
+        font-size: medium;
+        padding: 10px;
         color: white;
+}
+
+button{
+        float: right;
 }
