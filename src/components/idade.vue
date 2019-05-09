@@ -8,12 +8,12 @@
       <h5>Qual sua idade?</h5>
         <h5>
           <b-form-group label="Escolha uma das opções: ">
-           <div id="7"><b-form-radio v-model="selected" name="some-radios" value="vermelhor"><font color="">7</font></b-form-radio></div>
-           <div id="8"><b-form-radio v-model="selected" name="some-radios" value="verde"><font color="">8</font></b-form-radio></div>
-           <div id="9"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">9</font></b-form-radio></div>
-           <div id="10"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">10</font></b-form-radio></div>
-           <div id="11"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">11</font></b-form-radio></div>
-           <div id="12"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">12</font></b-form-radio></div>
+           <div id="7"><b-form-radio v-model="selected" name="some-radios" value="vermelhor"><font color="">7 anos</font></b-form-radio></div>
+           <div id="8"><b-form-radio v-model="selected" name="some-radios" value="verde"><font color="">8 anos</font></b-form-radio></div>
+           <div id="9"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">9 anos</font></b-form-radio></div>
+           <div id="10"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">10 anos</font></b-form-radio></div>
+           <div id="11"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">11 anos</font></b-form-radio></div>
+           <div id="12"><b-form-radio v-model="selected" name="some-radios" value="azul"><font color="">12 anos</font></b-form-radio></div>
           </b-form-group>
         </h5>
       <div align="right"><router-link to="/cor_preferida"><button class="small">Seguinte</button></router-link></div>
