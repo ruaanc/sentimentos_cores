@@ -1,12 +1,12 @@
 #caixa {
     border: 100px solid transparent;
     border-image: url(imagem/balao1.png) 250 stretch;
-    margin-right: 65%;
+    margin-right: 500px;
     position: absolute;
     }
 #alocar{
         position: relative;
-        top: -30px;
+        top: -15px;
         left: -15px;
 }
 body{
@@ -15,10 +15,46 @@ body{
 h5{
         font-family: "Comic Sans MS";
         font-size: medium;
-        padding: 10px;
+        padding: 5px;
         color: white;
 }
 
 button{
         float: right;
 }
+
+.runner{
+        width: 200px;
+        height: 330px;
+        background: url(imagem/1.png);
+        background-size: 200px;
+        animation-name: run;
+        animation-duration: 700ms;
+        animation-iteration-count: 2;
+      }
+  @keyframes run {
+        0% {
+          background: url(imagem/2.png);
+          background-size: 200px;
+          }
+        25% {
+          background: url(imagem/3.png);
+          background-size: 200px;
+          }
+        50%  {
+          background: url(imagem/4.png);
+          background-size: 200px;
+          }
+        100% {
+          background: url(imagem/5.png);
+          background-size: 200px;
+          }
+  }
+  #en{
+        padding-left: 400px;
+  }
+  #in{
+        padding-top: 300px;
+        padding-left: 200px;
+  
+  }
