@@ -44,17 +44,32 @@ h5{
   padding: 10px;
 }
 .runner{
-  width: 150px;
-  height: 200px;
-  background: url(img/enzo.png);
-  background-size: 980px;
-  animation: run 1100ms steps(4);
-  padding-top: 280px;
-  padding-right: 20px;
-  padding-left: 200px;
+  width: 200px;
+  height: 330px;
+  background: url(img/1.png);
+  background-size: 200px;
+  animation-name: run;
+  animation-duration: 700ms;
+  animation-iteration-count: 7;
 }
 @keyframes run {
-  100% { background-position: -17650px; }
+  0% {
+    background: url(img/2.png);
+    background-size: 200px;
+    }
+  25% {
+    background: url(img/3.png);
+    background-size: 200px;
+    }
+  50%  {
+    background: url(img/4.png);
+    background-size: 200px;
+    }
+  100% {
+    background: url(img/5.png);
+    background-size: 200px;
+    }
+  
 }
 #en{
   padding-left: 200px;
