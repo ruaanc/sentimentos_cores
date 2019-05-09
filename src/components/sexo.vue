@@ -49,7 +49,7 @@
 
 #alocar4{
   position: relative;
-  top: -15px;
+  top: -5px;
   left: -15px;
 }
 
@@ -91,6 +91,6 @@ h5{
   padding-left: 200px;
 }
 #in{
-  padding-top: 350px;
+  padding-top: 250px;
 }
 </style>
