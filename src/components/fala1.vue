@@ -5,7 +5,7 @@
       <div id="en">
           <div id="caixa1">
             <div id="alocar1">
-              <h5>Tenho 9 anos, nasci na cidade de Rio Tinto, na Universidade Federal da Paraíba do campus IV.</h5>
+              <h5>Tenho 9 anos, nasci na cidade de Rio Tinto, na Universidade Federal da Paraíba - Campus IV.</h5>
               <div align="right"><router-link to="/fala2"><button class="small">Seguinte</button></router-link></div>
             </div>
           </div>
