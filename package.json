@@ -12,6 +12,9 @@
     "bootstrap-vue": "^2.0.0-rc.18",
     "core-js": "^2.6.5",
     "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6",
+    "sqlite3": "^4.0.8",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-router": "^3.0.4"
