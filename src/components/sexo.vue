@@ -12,7 +12,7 @@
             <b-form-radio v-model="selected" name="some-radios" value="feminino">Feminino</b-form-radio>
           </b-form-group>
         </h5>     
-      <div align="right"><router-link to="/idade"><button class="small">Seguinte</button></router-link></div>
+      <div align="right" @click="verificador"><div><router-link :to="valor"><button class="small">Seguinte</button></router-link></div></div>
     </div>
    </div>
   </div>
@@ -31,7 +31,17 @@
   export default {
     data() {
       return {
-        selected: ''
+        selected: '',
+        validado: true,
+        valor: '/idade'
+      }
+    },
+    methods: {
+        verificador(){
+          if(this.selected == ''){
+            this.valor = '/sexo'
+            alert("Preencha uma das opções !")
+        }
       }
     }
   }
